@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+D:\Github\EnterTheDungeon\.metadata\.plugins\org.eclipse.jdt.core
+3600831556.index
+2014949329.index
