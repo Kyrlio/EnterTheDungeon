@@ -1,11 +1,11 @@
 package objets.armes;
 
-import objets.armes.Armes;
+import objets.armes.Arme;
 
-public class Epee extends Armes {
+public class Epee extends Arme {
 
-	public Epee(float degats, float range) {
-		super(degats, range);
+	public Epee(String nom, float degats, float range, float cooldown) {
+		super(nom, 2, range, cooldown);
 		// TODO Auto-generated constructor stub
 	}
 

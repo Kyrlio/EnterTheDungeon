@@ -2,16 +2,24 @@ package etreVivants.heros;
 
 import etreVivants.EtreVivant;
 import etreVivants.monstre.Monstre;
-import objets.armes.Armes;
+import objets.armes.Arme;
 
 public class Heros extends EtreVivant {
 	private float resistance;
 	private float xp;
+	private float lvl;
 	private float lvlup; //nombre a atteindre pour passer au prochain niveau
-	private Armes[] arme = new Armes[5];
+	private int nbArmes = 0;
+	private Arme[] inventaireArmes = new Arme[5];
 
 	public Heros(int vie, String nom, float degats, float vitesse) {
 		super(vie, nom, degats, vitesse);
+		this.resistance = resistance;
+		this.xp = xp;
+		this.lvl = lvl;
+		this.lvlup = lvlup;
+		this.nbArmes = nbArmes;
+		this.inventaireArmes = inventaireArmes;
 	}
 	
 	
@@ -25,26 +33,32 @@ public class Heros extends EtreVivant {
 				+ "\nvitesse = " + vitesse
 				+ "\nxp = " + xp
 				+ "\nlvlup = " + lvlup
-				+ "\narmes = " + arme
+				+ "\narmes = " + inventaireArmes
 				+"]\n";
 	}
 	
 	
 	//----------GETTERS----------
-	public String getNom() {
-		return nom;
-	}	
 	public float getResistance() {
 		return resistance;
 	}
 	public float getXp() {
 		return xp;
 	}
+	public float getLvl(){
+		return lvl;
+	}
 	public float getLvlup() {
 		return lvlup;
+	}	
+	public Arme[] getInventaireArme() {
+		for (int i = 0 ; inventaireArmes[i] != null && i < inventaireArmes.length ; i++) {
+			System.out.println(inventaireArmes[i].getNom());
+		}
+		return inventaireArmes;
 	}
-	
-	
+
+
 	//----------COMBAT----------
 	public void attaquer(Monstre monstre) {
 		//TODO faire des dégats a l'ennemi avec une arme
@@ -64,7 +78,7 @@ public class Heros extends EtreVivant {
 	}
 	
 	//----------RAMASSER UN OBJET----------
-	public void ramasserObjet() {
+	public void ramasserObjet(Object objet) {
 		/*TODO
 		 * Si l'objet est de l'xp
 		 * 	ajoute de l'xp au Héros
@@ -78,8 +92,17 @@ public class Heros extends EtreVivant {
 		 * 	augmente la résistance de l'armure et donc du Héros
 		 * 
 		 */
+		if (objet.getClass() == Arme.class) { //Permet de savoir si l'objet en parametre appartient a la classe Arme
+			inventaireArmes[nbArmes] = (Arme) objet;
+			nbArmes++;
+			this.degats = (float) ((Arme) objet).getDegats(); //Ajoute  les dégats de l'épée aux dégats du Héros
+			
+		}
 		
 	}
+	
+	
+	//---------GESTION DE L'XP----------
 
 
 	
