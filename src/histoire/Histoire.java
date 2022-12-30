@@ -59,6 +59,8 @@ public class Histoire {
 		monstre2.attaquer(heros);
 		heros.attaquer(monstre2);
 		
+		System.out.println("test");
+		
 
 	}
 
