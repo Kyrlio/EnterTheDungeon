@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_hIT24G8bEe2pDYIuWWAkSQ">
+  <modelElement href="EnterTheDungeon.uml#_hGLv8G8bEe2pDYIuWWAkSQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_lfQpAG8bEe2pDYIuWWAkSQ" sourceAnchor="219.0,0.0" targetAnchor="226.0,137.0" target="_liJk8G8bEe2pDYIuWWAkSQ" source="_lfR3IG8bEe2pDYIuWWAkSQ">
+    <modelElement href="EnterTheDungeon.uml#_hbOy4G8bEe2pDYIuWWAkSQ"/>
+    <bendpoints xmi:id="_l_PwoG8bEe2pDYIuWWAkSQ" sourceY="-43" targetX="-728" targetY="101"/>
+    <bendpoints xmi:id="_l_PwoW8bEe2pDYIuWWAkSQ" sourceX="728" sourceY="-43" targetY="101"/>
+    <stereotypes xmi:id="_lfQpAW8bEe2pDYIuWWAkSQ" name="Reference">
+      <modelElement href="EnterTheDungeon.uml#_hbQBAG8bEe2pDYIuWWAkSQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_lfQpAm8bEe2pDYIuWWAkSQ" text="">
+      <visualProperties xmi:id="_l_SM4G8bEe2pDYIuWWAkSQ" position="306.4999999999999,-8.499999999999886"/>
+    </nameVisual>
+    <sourceRole xmi:id="_lfQpA28bEe2pDYIuWWAkSQ" aggregationKind="NONE" name="">
+      <modelElement href="EnterTheDungeon.uml#_hbOy4W8bEe2pDYIuWWAkSQ"/>
+      <visualProperties xmi:id="_l_Rl1W8bEe2pDYIuWWAkSQ" position="5.0,-91.5"/>
+      <visibility xmi:id="_lfQpBG8bEe2pDYIuWWAkSQ" label="+"/>
+      <cardinality xmi:id="_lfQpBW8bEe2pDYIuWWAkSQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_lfQpBm8bEe2pDYIuWWAkSQ" aggregationKind="NONE" name="inventaireArmes" navigable="true">
+      <modelElement href="EnterTheDungeon.uml#_hbB-kG8bEe2pDYIuWWAkSQ"/>
+      <visualProperties xmi:id="_l_Sz8G8bEe2pDYIuWWAkSQ" position="1.5,28.0"/>
+      <visibility xmi:id="_lfQpB28bEe2pDYIuWWAkSQ" label="-"/>
+      <cardinality xmi:id="_lfQpCG8bEe2pDYIuWWAkSQ" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_lgQukG8bEe2pDYIuWWAkSQ" sourceAnchor="207.0,0.0" targetAnchor="228.0,289.0" superClass="_lgy6EG8bEe2pDYIuWWAkSQ" subClass="_lfrfwG8bEe2pDYIuWWAkSQ">
+    <modelElement href="EnterTheDungeon.uml#_ha1KQG8bEe2pDYIuWWAkSQ"/>
+    <bendpoints xmi:id="_l_Pwpm8bEe2pDYIuWWAkSQ" sourceY="-22" targetX="234" targetY="38"/>
+    <bendpoints xmi:id="_l_QXsG8bEe2pDYIuWWAkSQ" sourceX="-234" sourceY="-22" targetY="38"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_lgmFwG8bEe2pDYIuWWAkSQ" sourceAnchor="206.0,0.0" targetAnchor="228.0,289.0" superClass="_lgy6EG8bEe2pDYIuWWAkSQ" subClass="_lfR3IG8bEe2pDYIuWWAkSQ">
+    <modelElement href="EnterTheDungeon.uml#_ha2YYW8bEe2pDYIuWWAkSQ"/>
+    <bendpoints xmi:id="_l_Pwom8bEe2pDYIuWWAkSQ" sourceY="-355" targetX="-26" targetY="38"/>
+    <bendpoints xmi:id="_l_Pwo28bEe2pDYIuWWAkSQ" sourceX="26" sourceY="-355" targetY="38"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_liIW0G8bEe2pDYIuWWAkSQ" targetItem="_liJk8G8bEe2pDYIuWWAkSQ" sourceItem="_lhh54G8bEe2pDYIuWWAkSQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_ligKQG8bEe2pDYIuWWAkSQ" sourceAnchor="209.0,0.0" targetAnchor="239.0,137.0" superClass="_liJk8G8bEe2pDYIuWWAkSQ" subClass="_li9dQG8bEe2pDYIuWWAkSQ">
+    <modelElement href="EnterTheDungeon.uml#_ha1xUG8bEe2pDYIuWWAkSQ"/>
+    <bendpoints xmi:id="_l_Q-w28bEe2pDYIuWWAkSQ" sourceY="-25" targetX="325" targetY="23"/>
+    <bendpoints xmi:id="_l_Q-xG8bEe2pDYIuWWAkSQ" sourceX="-325" sourceY="-25" targetY="23"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ContainmentVisual" xmi:id="_ln5noG8bEe2pDYIuWWAkSQ" sourceAnchor="228.0,0.0" targetAnchor="50.0,58.0" enclosingItem="_loZW4G8bEe2pDYIuWWAkSQ" containedItem="_lgy6EG8bEe2pDYIuWWAkSQ">
+    <bendpoints xmi:id="_l_QXs28bEe2pDYIuWWAkSQ" sourceY="-24" targetX="-299" targetY="36"/>
+    <bendpoints xmi:id="_l_Q-wG8bEe2pDYIuWWAkSQ" sourceX="299" sourceY="-24" targetY="36"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ContainmentVisual" xmi:id="_lpMBEG8bEe2pDYIuWWAkSQ" sourceAnchor="47.0,0.0" targetAnchor="50.0,58.0" enclosingItem="_loZW4G8bEe2pDYIuWWAkSQ" containedItem="_lq21AG8bEe2pDYIuWWAkSQ">
+    <bendpoints xmi:id="_l_Rl0W8bEe2pDYIuWWAkSQ" sourceY="-140" targetX="1014" targetY="36"/>
+    <bendpoints xmi:id="_l_Rl0m8bEe2pDYIuWWAkSQ" sourceX="-1014" sourceY="-140" targetY="36"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ContainmentVisual" xmi:id="_lqYT4G8bEe2pDYIuWWAkSQ" sourceAnchor="232.0,0.0" targetAnchor="47.0,58.0" enclosingItem="_lq21AG8bEe2pDYIuWWAkSQ" containedItem="_lfR3IG8bEe2pDYIuWWAkSQ">
+    <bendpoints xmi:id="_l_PwpG8bEe2pDYIuWWAkSQ" sourceY="-17" targetX="-1313" targetY="491"/>
+    <bendpoints xmi:id="_l_PwpW8bEe2pDYIuWWAkSQ" sourceX="1313" sourceY="-17" targetY="491"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ContainmentVisual" xmi:id="_lrvl0G8bEe2pDYIuWWAkSQ" sourceAnchor="47.0,0.0" targetAnchor="50.0,58.0" enclosingItem="_loZW4G8bEe2pDYIuWWAkSQ" containedItem="_ltNlcG8bEe2pDYIuWWAkSQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ContainmentVisual" xmi:id="_lsw5gG8bEe2pDYIuWWAkSQ" sourceAnchor="220.0,0.0" targetAnchor="47.0,58.0" enclosingItem="_ltNlcG8bEe2pDYIuWWAkSQ" containedItem="_lfrfwG8bEe2pDYIuWWAkSQ">
+    <bendpoints xmi:id="_l_QXsW8bEe2pDYIuWWAkSQ" sourceY="-152" targetX="-52" targetY="23"/>
+    <bendpoints xmi:id="_l_QXsm8bEe2pDYIuWWAkSQ" sourceX="52" sourceY="-152" targetY="23"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ContainmentVisual" xmi:id="_luW08G8bEe2pDYIuWWAkSQ" sourceAnchor="35.0,0.0" targetAnchor="47.0,58.0" enclosingItem="_lvYvsG8bEe2pDYIuWWAkSQ" containedItem="_ljVQsG8bEe2pDYIuWWAkSQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ContainmentVisual" xmi:id="_lvHC4G8bEe2pDYIuWWAkSQ" sourceAnchor="14.0,0.0" targetAnchor="47.0,58.0" enclosingItem="_lvYvsG8bEe2pDYIuWWAkSQ" containedItem="_lj1nAG8bEe2pDYIuWWAkSQ">
+    <bendpoints xmi:id="_l_Q-x28bEe2pDYIuWWAkSQ" sourceY="-25" targetX="78" targetY="36"/>
+    <bendpoints xmi:id="_l_Rl0G8bEe2pDYIuWWAkSQ" sourceX="-78" sourceY="-25" targetY="36"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ContainmentVisual" xmi:id="_lwJksG8bEe2pDYIuWWAkSQ" sourceAnchor="47.0,0.0" targetAnchor="47.0,58.0" enclosingItem="_lvYvsG8bEe2pDYIuWWAkSQ" containedItem="_lyDpMG8bEe2pDYIuWWAkSQ">
+    <bendpoints xmi:id="_l_Rl028bEe2pDYIuWWAkSQ" sourceY="-23" targetX="-104" targetY="36"/>
+    <bendpoints xmi:id="_l_Rl1G8bEe2pDYIuWWAkSQ" sourceX="104" sourceY="-23" targetY="36"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ContainmentVisual" xmi:id="_lxN7sG8bEe2pDYIuWWAkSQ" sourceAnchor="226.0,0.0" targetAnchor="47.0,58.0" enclosingItem="_lyDpMG8bEe2pDYIuWWAkSQ" containedItem="_liJk8G8bEe2pDYIuWWAkSQ">
+    <bendpoints xmi:id="_l_Q-wW8bEe2pDYIuWWAkSQ" sourceY="-22" targetX="-325" targetY="36"/>
+    <bendpoints xmi:id="_l_Q-wm8bEe2pDYIuWWAkSQ" sourceX="325" sourceY="-22" targetY="36"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ContainmentVisual" xmi:id="_lyDCIG8bEe2pDYIuWWAkSQ" sourceAnchor="222.0,0.0" targetAnchor="47.0,58.0" enclosingItem="_lyDpMG8bEe2pDYIuWWAkSQ" containedItem="_li9dQG8bEe2pDYIuWWAkSQ">
+    <bendpoints xmi:id="_l_Q-xW8bEe2pDYIuWWAkSQ" sourceY="-207" targetX="26" targetY="36"/>
+    <bendpoints xmi:id="_l_Q-xm8bEe2pDYIuWWAkSQ" sourceX="-26" sourceY="-207" targetY="36"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ContainmentVisual" xmi:id="_lywMwG8bEe2pDYIuWWAkSQ" sourceAnchor="95.0,0.0" targetAnchor="47.0,58.0" enclosingItem="_lzXQwG8bEe2pDYIuWWAkSQ" containedItem="_lkyCMG8bEe2pDYIuWWAkSQ"/>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_lhh54G8bEe2pDYIuWWAkSQ" sourceConnectionVisual="_liIW0G8bEe2pDYIuWWAkSQ" text="Les armes attaquent en continue mais ont des spécificités différentes&#xD;&#xA;ex : l'épée attaque tout droit dans la direction du Héros&#xD;&#xA;Le pistolet tire un projectile en direction du monstre le plus proche&#xD;&#xA;Le champ de force est un cercle qui entoure le Héros et si les ennemis rentrent dans ce cerle ça leur fait des dégats tout les x sec" item="_liJk8G8bEe2pDYIuWWAkSQ">
+    <modelElement href="EnterTheDungeon.uml#_hbLvkG8bEe2pDYIuWWAkSQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_lfR3IG8bEe2pDYIuWWAkSQ" containment="_lqYT4G8bEe2pDYIuWWAkSQ" name="Heros" package="_lq21AG8bEe2pDYIuWWAkSQ" associationsOut="_lfQpAG8bEe2pDYIuWWAkSQ" generalizations="_lgmFwG8bEe2pDYIuWWAkSQ">
+    <modelElement href="EnterTheDungeon.uml#_hZr6wG8bEe2pDYIuWWAkSQ"/>
+    <visualProperties xmi:id="_lfR3IW8bEe2pDYIuWWAkSQ" position="11.0,830.0" size="413.0,256.0"/>
+    <visibility xmi:id="_lfR3Im8bEe2pDYIuWWAkSQ" label="+"/>
+    <attributes xmi:id="_lfR3I28bEe2pDYIuWWAkSQ" name="resistance">
+      <modelElement href="EnterTheDungeon.uml#_hbAJYG8bEe2pDYIuWWAkSQ"/>
+      <visibility xmi:id="_lfR3JG8bEe2pDYIuWWAkSQ" label="+"/>
+      <cardinality xmi:id="_lfR3JW8bEe2pDYIuWWAkSQ" label="1" max="1" min="1"/>
+      <type xmi:id="_lfR3Jm8bEe2pDYIuWWAkSQ" name="float">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_lfR3J28bEe2pDYIuWWAkSQ" name="xp">
+      <modelElement href="EnterTheDungeon.uml#_hbAwcG8bEe2pDYIuWWAkSQ"/>
+      <visibility xmi:id="_lfR3KG8bEe2pDYIuWWAkSQ" label="+"/>
+      <cardinality xmi:id="_lfR3KW8bEe2pDYIuWWAkSQ" label="1" max="1" min="1"/>
+      <type xmi:id="_lfR3Km8bEe2pDYIuWWAkSQ" name="float">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_lfR3K28bEe2pDYIuWWAkSQ" name="lvl">
+      <modelElement href="EnterTheDungeon.uml#_hbAwcW8bEe2pDYIuWWAkSQ"/>
+      <visibility xmi:id="_lfR3LG8bEe2pDYIuWWAkSQ" label="+"/>
+      <cardinality xmi:id="_lfR3LW8bEe2pDYIuWWAkSQ" label="1" max="1" min="1"/>
+      <type xmi:id="_lfR3Lm8bEe2pDYIuWWAkSQ" name="float">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_lfR3L28bEe2pDYIuWWAkSQ" name="lvlup">
+      <modelElement href="EnterTheDungeon.uml#_hbBXgG8bEe2pDYIuWWAkSQ"/>
+      <visibility xmi:id="_lfR3MG8bEe2pDYIuWWAkSQ" label="+"/>
+      <cardinality xmi:id="_lfR3MW8bEe2pDYIuWWAkSQ" label="1" max="1" min="1"/>
+      <type xmi:id="_lfR3Mm8bEe2pDYIuWWAkSQ" name="float">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_lfR3M28bEe2pDYIuWWAkSQ" defaultValue="0" name="nbArmes">
+      <modelElement href="EnterTheDungeon.uml#_hbBXgW8bEe2pDYIuWWAkSQ"/>
+      <stereotypes xmi:id="_lfR3NG8bEe2pDYIuWWAkSQ" name="LegacyStyledElement">
+        <modelElement href="EnterTheDungeon.uml#_hbBXg28bEe2pDYIuWWAkSQ"/>
+      </stereotypes>
+      <visibility xmi:id="_lfR3NW8bEe2pDYIuWWAkSQ" label="-"/>
+      <cardinality xmi:id="_lfR3Nm8bEe2pDYIuWWAkSQ" label="1" max="1" min="1"/>
+      <type xmi:id="_lfR3N28bEe2pDYIuWWAkSQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_lfR3OG8bEe2pDYIuWWAkSQ" defaultValue="new Arme[5]" name="inventaireArmes">
+      <modelElement href="EnterTheDungeon.uml#_hbB-kG8bEe2pDYIuWWAkSQ"/>
+      <stereotypes xmi:id="_lfR3OW8bEe2pDYIuWWAkSQ" name="Array">
+        <modelElement href="EnterTheDungeon.uml#_hbCloG8bEe2pDYIuWWAkSQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_lfR3Om8bEe2pDYIuWWAkSQ" name="LegacyStyledElement">
+        <modelElement href="EnterTheDungeon.uml#_hbClom8bEe2pDYIuWWAkSQ"/>
+      </stereotypes>
+      <visibility xmi:id="_lfR3O28bEe2pDYIuWWAkSQ" label="-"/>
+      <cardinality xmi:id="_lfR3PG8bEe2pDYIuWWAkSQ" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_lfR3PW8bEe2pDYIuWWAkSQ" name="Arme">
+        <modelElement href="EnterTheDungeon.uml#_hZoQYW8bEe2pDYIuWWAkSQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_lfR3Pm8bEe2pDYIuWWAkSQ" name="Heros">
+      <modelElement href="EnterTheDungeon.uml#_hZyBYG8bEe2pDYIuWWAkSQ"/>
+      <keywords xmi:id="_lfR3P28bEe2pDYIuWWAkSQ" keyword="create"/>
+      <visibility xmi:id="_lfR3QG8bEe2pDYIuWWAkSQ" label="+"/>
+      <cardinality xmi:id="_lfR3QW8bEe2pDYIuWWAkSQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_lfR3Qm8bEe2pDYIuWWAkSQ">
+        <modelElement href="EnterTheDungeon.uml#_hZyodW8bEe2pDYIuWWAkSQ"/>
+        <type xmi:id="_lfR3Q28bEe2pDYIuWWAkSQ" name="Heros">
+          <modelElement href="EnterTheDungeon.uml#_hZr6wG8bEe2pDYIuWWAkSQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_lfR3RG8bEe2pDYIuWWAkSQ" name="vie">
+        <modelElement href="EnterTheDungeon.uml#_hZyBYW8bEe2pDYIuWWAkSQ"/>
+        <cardinality xmi:id="_lfR3RW8bEe2pDYIuWWAkSQ" label="1" max="1" min="1"/>
+        <type xmi:id="_lfR3Rm8bEe2pDYIuWWAkSQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lfR3R28bEe2pDYIuWWAkSQ" name="nom">
+        <modelElement href="EnterTheDungeon.uml#_hZyocG8bEe2pDYIuWWAkSQ"/>
+        <cardinality xmi:id="_lfR3SG8bEe2pDYIuWWAkSQ" label="1" max="1" min="1"/>
+        <type xmi:id="_lfR3SW8bEe2pDYIuWWAkSQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lfR3Sm8bEe2pDYIuWWAkSQ" name="degats">
+        <modelElement href="EnterTheDungeon.uml#_hZyocW8bEe2pDYIuWWAkSQ"/>
+        <cardinality xmi:id="_lfR3S28bEe2pDYIuWWAkSQ" label="1" max="1" min="1"/>
+        <type xmi:id="_lfR3TG8bEe2pDYIuWWAkSQ" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lfR3TW8bEe2pDYIuWWAkSQ" name="vitesse">
+        <modelElement href="EnterTheDungeon.uml#_hZyocm8bEe2pDYIuWWAkSQ"/>
+        <cardinality xmi:id="_lfR3Tm8bEe2pDYIuWWAkSQ" label="1" max="1" min="1"/>
+        <type xmi:id="_lfR3T28bEe2pDYIuWWAkSQ" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_lfR3UG8bEe2pDYIuWWAkSQ" name="toString">
+      <modelElement href="EnterTheDungeon.uml#_hZ0doG8bEe2pDYIuWWAkSQ"/>
+      <stereotypes xmi:id="_lfR3UW8bEe2pDYIuWWAkSQ" name="LegacyStyledElement">
+        <modelElement href="EnterTheDungeon.uml#_hZ1EsG8bEe2pDYIuWWAkSQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_lfR3Um8bEe2pDYIuWWAkSQ" name="Annotations">
+        <modelElement href="EnterTheDungeon.uml#_hZ3g8G8bEe2pDYIuWWAkSQ"/>
+      </stereotypes>
+      <visibility xmi:id="_lfR3U28bEe2pDYIuWWAkSQ" label="+"/>
+      <cardinality xmi:id="_lfR3VG8bEe2pDYIuWWAkSQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_lfR3VW8bEe2pDYIuWWAkSQ">
+        <modelElement href="EnterTheDungeon.uml#_hZ0doW8bEe2pDYIuWWAkSQ"/>
+        <type xmi:id="_lfR3Vm8bEe2pDYIuWWAkSQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_lfR3V28bEe2pDYIuWWAkSQ" name="getInventaireArme">
+      <modelElement href="EnterTheDungeon.uml#_hZ3g8m8bEe2pDYIuWWAkSQ"/>
+      <stereotypes xmi:id="_lfR3WG8bEe2pDYIuWWAkSQ" name="Array">
+        <modelElement href="EnterTheDungeon.uml#_hZ5WIG8bEe2pDYIuWWAkSQ"/>
+      </stereotypes>
+      <visibility xmi:id="_lfR3WW8bEe2pDYIuWWAkSQ" label="+"/>
+      <cardinality xmi:id="_lfR3Wm8bEe2pDYIuWWAkSQ" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_lfR3W28bEe2pDYIuWWAkSQ">
+        <modelElement href="EnterTheDungeon.uml#_hZ4vEG8bEe2pDYIuWWAkSQ"/>
+        <type xmi:id="_lfR3XG8bEe2pDYIuWWAkSQ" name="Arme">
+          <modelElement href="EnterTheDungeon.uml#_hZoQYW8bEe2pDYIuWWAkSQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_lfR3XW8bEe2pDYIuWWAkSQ" name="recevoirDegats">
+      <modelElement href="EnterTheDungeon.uml#_hZ5WIW8bEe2pDYIuWWAkSQ"/>
+      <visibility xmi:id="_lfR3Xm8bEe2pDYIuWWAkSQ" label="+"/>
+      <cardinality xmi:id="_lfR3X28bEe2pDYIuWWAkSQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_lfR3YG8bEe2pDYIuWWAkSQ" name="degats">
+        <modelElement href="EnterTheDungeon.uml#_hZ5WIm8bEe2pDYIuWWAkSQ"/>
+        <cardinality xmi:id="_lfR3YW8bEe2pDYIuWWAkSQ" label="1" max="1" min="1"/>
+        <type xmi:id="_lfR3Ym8bEe2pDYIuWWAkSQ" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_lfR3Y28bEe2pDYIuWWAkSQ" name="attaquer">
+      <modelElement href="EnterTheDungeon.uml#_ha1xUW8bEe2pDYIuWWAkSQ"/>
+      <visibility xmi:id="_lfR3ZG8bEe2pDYIuWWAkSQ" label="+"/>
+      <cardinality xmi:id="_lfR3ZW8bEe2pDYIuWWAkSQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_lfR3Zm8bEe2pDYIuWWAkSQ" name="monstre">
+        <modelElement href="EnterTheDungeon.uml#_ha2YYG8bEe2pDYIuWWAkSQ"/>
+        <cardinality xmi:id="_lfR3Z28bEe2pDYIuWWAkSQ" label="1" max="1" min="1"/>
+        <type xmi:id="_lfR3aG8bEe2pDYIuWWAkSQ" name="Monstre">
+          <modelElement href="EnterTheDungeon.uml#_hZOnwW8bEe2pDYIuWWAkSQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_lfR3aW8bEe2pDYIuWWAkSQ" name="ramasserObjet">
+      <modelElement href="EnterTheDungeon.uml#_ha5bsW8bEe2pDYIuWWAkSQ"/>
+      <visibility xmi:id="_lfR3am8bEe2pDYIuWWAkSQ" label="+"/>
+      <cardinality xmi:id="_lfR3a28bEe2pDYIuWWAkSQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_lfR3bG8bEe2pDYIuWWAkSQ" name="objet">
+        <modelElement href="EnterTheDungeon.uml#_ha5bsm8bEe2pDYIuWWAkSQ"/>
+        <cardinality xmi:id="_lfR3bW8bEe2pDYIuWWAkSQ" label="1" max="1" min="1"/>
+        <type xmi:id="_lfR3bm8bEe2pDYIuWWAkSQ" name="Object">
+          <modelElement href="EnterTheDungeon.uml#_ha40om8bEe2pDYIuWWAkSQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_lfrfwG8bEe2pDYIuWWAkSQ" containment="_lsw5gG8bEe2pDYIuWWAkSQ" name="Monstre" package="_ltNlcG8bEe2pDYIuWWAkSQ" generalizations="_lgQukG8bEe2pDYIuWWAkSQ">
+    <modelElement href="EnterTheDungeon.uml#_hZOnwW8bEe2pDYIuWWAkSQ"/>
+    <visualProperties xmi:id="_lfrfwW8bEe2pDYIuWWAkSQ" position="270.0,497.0" size="439.0,116.0"/>
+    <visibility xmi:id="_lfrfwm8bEe2pDYIuWWAkSQ" label="+"/>
+    <operations xmi:id="_lfrfw28bEe2pDYIuWWAkSQ" name="Monstre">
+      <modelElement href="EnterTheDungeon.uml#_hZPO0G8bEe2pDYIuWWAkSQ"/>
+      <keywords xmi:id="_lfrfxG8bEe2pDYIuWWAkSQ" keyword="create"/>
+      <visibility xmi:id="_lfrfxW8bEe2pDYIuWWAkSQ" label="+"/>
+      <cardinality xmi:id="_lfrfxm8bEe2pDYIuWWAkSQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_lfrfx28bEe2pDYIuWWAkSQ">
+        <modelElement href="EnterTheDungeon.uml#_hZj-8m8bEe2pDYIuWWAkSQ"/>
+        <type xmi:id="_lfrfyG8bEe2pDYIuWWAkSQ" name="Monstre">
+          <modelElement href="EnterTheDungeon.uml#_hZOnwW8bEe2pDYIuWWAkSQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_lfrfyW8bEe2pDYIuWWAkSQ" name="vie">
+        <modelElement href="EnterTheDungeon.uml#_hZPO0W8bEe2pDYIuWWAkSQ"/>
+        <cardinality xmi:id="_lfrfym8bEe2pDYIuWWAkSQ" label="1" max="1" min="1"/>
+        <type xmi:id="_lfrfy28bEe2pDYIuWWAkSQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lfrfzG8bEe2pDYIuWWAkSQ" name="nom">
+        <modelElement href="EnterTheDungeon.uml#_hZP14G8bEe2pDYIuWWAkSQ"/>
+        <cardinality xmi:id="_lfrfzW8bEe2pDYIuWWAkSQ" label="1" max="1" min="1"/>
+        <type xmi:id="_lfrfzm8bEe2pDYIuWWAkSQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lfrfz28bEe2pDYIuWWAkSQ" name="degats">
+        <modelElement href="EnterTheDungeon.uml#_hZjX4G8bEe2pDYIuWWAkSQ"/>
+        <cardinality xmi:id="_lfrf0G8bEe2pDYIuWWAkSQ" label="1" max="1" min="1"/>
+        <type xmi:id="_lfrf0W8bEe2pDYIuWWAkSQ" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lfrf0m8bEe2pDYIuWWAkSQ" name="vitesse">
+        <modelElement href="EnterTheDungeon.uml#_hZjX4W8bEe2pDYIuWWAkSQ"/>
+        <cardinality xmi:id="_lfrf028bEe2pDYIuWWAkSQ" label="1" max="1" min="1"/>
+        <type xmi:id="_lfrf1G8bEe2pDYIuWWAkSQ" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_lfrf1W8bEe2pDYIuWWAkSQ" name="toString">
+      <modelElement href="EnterTheDungeon.uml#_hZj-828bEe2pDYIuWWAkSQ"/>
+      <stereotypes xmi:id="_lfrf1m8bEe2pDYIuWWAkSQ" name="LegacyStyledElement">
+        <modelElement href="EnterTheDungeon.uml#_hZkmAG8bEe2pDYIuWWAkSQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_lfrf128bEe2pDYIuWWAkSQ" name="Annotations">
+        <modelElement href="EnterTheDungeon.uml#_hZkmAW8bEe2pDYIuWWAkSQ"/>
+      </stereotypes>
+      <visibility xmi:id="_lfrf2G8bEe2pDYIuWWAkSQ" label="+"/>
+      <cardinality xmi:id="_lfrf2W8bEe2pDYIuWWAkSQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_lfrf2m8bEe2pDYIuWWAkSQ">
+        <modelElement href="EnterTheDungeon.uml#_hZj-9G8bEe2pDYIuWWAkSQ"/>
+        <type xmi:id="_lfrf228bEe2pDYIuWWAkSQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_lfrf3G8bEe2pDYIuWWAkSQ" name="recevoirDegats">
+      <modelElement href="EnterTheDungeon.uml#_hZlNEG8bEe2pDYIuWWAkSQ"/>
+      <visibility xmi:id="_lfrf3W8bEe2pDYIuWWAkSQ" label="+"/>
+      <cardinality xmi:id="_lfrf3m8bEe2pDYIuWWAkSQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_lfrf328bEe2pDYIuWWAkSQ" name="degats">
+        <modelElement href="EnterTheDungeon.uml#_hZlNEW8bEe2pDYIuWWAkSQ"/>
+        <cardinality xmi:id="_lfrf4G8bEe2pDYIuWWAkSQ" label="1" max="1" min="1"/>
+        <type xmi:id="_lfrf4W8bEe2pDYIuWWAkSQ" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_lfrf4m8bEe2pDYIuWWAkSQ" name="attaquer">
+      <modelElement href="EnterTheDungeon.uml#_ha0jMG8bEe2pDYIuWWAkSQ"/>
+      <visibility xmi:id="_lfrf428bEe2pDYIuWWAkSQ" label="+"/>
+      <cardinality xmi:id="_lfrf5G8bEe2pDYIuWWAkSQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_lfrf5W8bEe2pDYIuWWAkSQ" name="heros">
+        <modelElement href="EnterTheDungeon.uml#_ha0jMW8bEe2pDYIuWWAkSQ"/>
+        <cardinality xmi:id="_lfrf5m8bEe2pDYIuWWAkSQ" label="1" max="1" min="1"/>
+        <type xmi:id="_lfrf528bEe2pDYIuWWAkSQ" name="Heros">
+          <modelElement href="EnterTheDungeon.uml#_hZr6wG8bEe2pDYIuWWAkSQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_lgy6EG8bEe2pDYIuWWAkSQ" containment="_ln5noG8bEe2pDYIuWWAkSQ" name="EtreVivant" package="_loZW4G8bEe2pDYIuWWAkSQ" subclassedBy="_lgQukG8bEe2pDYIuWWAkSQ _lgmFwG8bEe2pDYIuWWAkSQ">
+    <modelElement href="EnterTheDungeon.uml#_hZH6EG8bEe2pDYIuWWAkSQ"/>
+    <visualProperties xmi:id="_lgy6EW8bEe2pDYIuWWAkSQ" position="15.0,148.0" size="457.0,294.0"/>
+    <visibility xmi:id="_lgy6Em8bEe2pDYIuWWAkSQ" label="+"/>
+    <attributes xmi:id="_lgy6E28bEe2pDYIuWWAkSQ" name="vie">
+      <modelElement href="EnterTheDungeon.uml#_ha9GEG8bEe2pDYIuWWAkSQ"/>
+      <stereotypes xmi:id="_lgy6FG8bEe2pDYIuWWAkSQ" name="LegacyStyledElement">
+        <modelElement href="EnterTheDungeon.uml#_ha9GEW8bEe2pDYIuWWAkSQ"/>
+      </stereotypes>
+      <visibility xmi:id="_lgy6FW8bEe2pDYIuWWAkSQ" label="#"/>
+      <cardinality xmi:id="_lgy6Fm8bEe2pDYIuWWAkSQ" label="1" max="1" min="1"/>
+      <type xmi:id="_lgy6F28bEe2pDYIuWWAkSQ" name="float">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_lgy6GG8bEe2pDYIuWWAkSQ" name="nom">
+      <modelElement href="EnterTheDungeon.uml#_ha9tIG8bEe2pDYIuWWAkSQ"/>
+      <stereotypes xmi:id="_lgy6GW8bEe2pDYIuWWAkSQ" name="LegacyStyledElement">
+        <modelElement href="EnterTheDungeon.uml#_ha9tIW8bEe2pDYIuWWAkSQ"/>
+      </stereotypes>
+      <visibility xmi:id="_lgy6Gm8bEe2pDYIuWWAkSQ" label="#"/>
+      <cardinality xmi:id="_lgy6G28bEe2pDYIuWWAkSQ" label="1" max="1" min="1"/>
+      <type xmi:id="_lgy6HG8bEe2pDYIuWWAkSQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_lgy6HW8bEe2pDYIuWWAkSQ" name="degats">
+      <modelElement href="EnterTheDungeon.uml#_ha9tIm8bEe2pDYIuWWAkSQ"/>
+      <stereotypes xmi:id="_lgy6Hm8bEe2pDYIuWWAkSQ" name="LegacyStyledElement">
+        <modelElement href="EnterTheDungeon.uml#_ha-UMG8bEe2pDYIuWWAkSQ"/>
+      </stereotypes>
+      <visibility xmi:id="_lgy6H28bEe2pDYIuWWAkSQ" label="#"/>
+      <cardinality xmi:id="_lgy6IG8bEe2pDYIuWWAkSQ" label="1" max="1" min="1"/>
+      <type xmi:id="_lgy6IW8bEe2pDYIuWWAkSQ" name="float">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_lgy6Im8bEe2pDYIuWWAkSQ" name="vitesse">
+      <modelElement href="EnterTheDungeon.uml#_ha-UMW8bEe2pDYIuWWAkSQ"/>
+      <stereotypes xmi:id="_lgy6I28bEe2pDYIuWWAkSQ" name="LegacyStyledElement">
+        <modelElement href="EnterTheDungeon.uml#_ha-7QG8bEe2pDYIuWWAkSQ"/>
+      </stereotypes>
+      <visibility xmi:id="_lgy6JG8bEe2pDYIuWWAkSQ" label="#"/>
+      <cardinality xmi:id="_lgy6JW8bEe2pDYIuWWAkSQ" label="1" max="1" min="1"/>
+      <type xmi:id="_lgy6Jm8bEe2pDYIuWWAkSQ" name="float">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_lgy6J28bEe2pDYIuWWAkSQ" name="EtreVivant">
+      <modelElement href="EnterTheDungeon.uml#_hZJvQG8bEe2pDYIuWWAkSQ"/>
+      <keywords xmi:id="_lgy6KG8bEe2pDYIuWWAkSQ" keyword="create"/>
+      <visibility xmi:id="_lgy6KW8bEe2pDYIuWWAkSQ" label="#"/>
+      <cardinality xmi:id="_lgy6Km8bEe2pDYIuWWAkSQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_lgy6K28bEe2pDYIuWWAkSQ">
+        <modelElement href="EnterTheDungeon.uml#_hZKWVm8bEe2pDYIuWWAkSQ"/>
+        <type xmi:id="_lgy6LG8bEe2pDYIuWWAkSQ" name="EtreVivant">
+          <modelElement href="EnterTheDungeon.uml#_hZH6EG8bEe2pDYIuWWAkSQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_lgy6LW8bEe2pDYIuWWAkSQ" name="vie">
+        <modelElement href="EnterTheDungeon.uml#_hZKWUG8bEe2pDYIuWWAkSQ"/>
+        <cardinality xmi:id="_lgy6Lm8bEe2pDYIuWWAkSQ" label="1" max="1" min="1"/>
+        <type xmi:id="_lgy6L28bEe2pDYIuWWAkSQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lgy6MG8bEe2pDYIuWWAkSQ" name="nom">
+        <modelElement href="EnterTheDungeon.uml#_hZKWUW8bEe2pDYIuWWAkSQ"/>
+        <cardinality xmi:id="_lgy6MW8bEe2pDYIuWWAkSQ" label="1" max="1" min="1"/>
+        <type xmi:id="_lgy6Mm8bEe2pDYIuWWAkSQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lgy6M28bEe2pDYIuWWAkSQ" name="degats">
+        <modelElement href="EnterTheDungeon.uml#_hZKWUm8bEe2pDYIuWWAkSQ"/>
+        <cardinality xmi:id="_lgy6NG8bEe2pDYIuWWAkSQ" label="1" max="1" min="1"/>
+        <type xmi:id="_lgy6NW8bEe2pDYIuWWAkSQ" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lgy6Nm8bEe2pDYIuWWAkSQ" name="vitesse">
+        <modelElement href="EnterTheDungeon.uml#_hZKWU28bEe2pDYIuWWAkSQ"/>
+        <cardinality xmi:id="_lgy6N28bEe2pDYIuWWAkSQ" label="1" max="1" min="1"/>
+        <type xmi:id="_lgy6OG8bEe2pDYIuWWAkSQ" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_lgy6OW8bEe2pDYIuWWAkSQ" name="getVie">
+      <modelElement href="EnterTheDungeon.uml#_hZK9YG8bEe2pDYIuWWAkSQ"/>
+      <visibility xmi:id="_lgy6Om8bEe2pDYIuWWAkSQ" label="+"/>
+      <cardinality xmi:id="_lgy6O28bEe2pDYIuWWAkSQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_lgy6PG8bEe2pDYIuWWAkSQ">
+        <modelElement href="EnterTheDungeon.uml#_hZK9YW8bEe2pDYIuWWAkSQ"/>
+        <type xmi:id="_lgy6PW8bEe2pDYIuWWAkSQ" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_lgy6Pm8bEe2pDYIuWWAkSQ" name="getNom">
+      <modelElement href="EnterTheDungeon.uml#_hZLkcG8bEe2pDYIuWWAkSQ"/>
+      <visibility xmi:id="_lgy6P28bEe2pDYIuWWAkSQ" label="+"/>
+      <cardinality xmi:id="_lgy6QG8bEe2pDYIuWWAkSQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_lgy6QW8bEe2pDYIuWWAkSQ">
+        <modelElement href="EnterTheDungeon.uml#_hZLkcW8bEe2pDYIuWWAkSQ"/>
+        <type xmi:id="_lgy6Qm8bEe2pDYIuWWAkSQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_lgy6Q28bEe2pDYIuWWAkSQ" name="getDegats">
+      <modelElement href="EnterTheDungeon.uml#_hZLkcm8bEe2pDYIuWWAkSQ"/>
+      <visibility xmi:id="_lgy6RG8bEe2pDYIuWWAkSQ" label="+"/>
+      <cardinality xmi:id="_lgy6RW8bEe2pDYIuWWAkSQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_lgy6Rm8bEe2pDYIuWWAkSQ">
+        <modelElement href="EnterTheDungeon.uml#_hZLkc28bEe2pDYIuWWAkSQ"/>
+        <type xmi:id="_lgy6R28bEe2pDYIuWWAkSQ" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_lgy6SG8bEe2pDYIuWWAkSQ" name="getVitesse">
+      <modelElement href="EnterTheDungeon.uml#_hZLkdG8bEe2pDYIuWWAkSQ"/>
+      <visibility xmi:id="_lgy6SW8bEe2pDYIuWWAkSQ" label="+"/>
+      <cardinality xmi:id="_lgy6Sm8bEe2pDYIuWWAkSQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_lgy6S28bEe2pDYIuWWAkSQ">
+        <modelElement href="EnterTheDungeon.uml#_hZMLgG8bEe2pDYIuWWAkSQ"/>
+        <type xmi:id="_lgy6TG8bEe2pDYIuWWAkSQ" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_lgy6TW8bEe2pDYIuWWAkSQ" name="estEnvie">
+      <modelElement href="EnterTheDungeon.uml#_hZMLgW8bEe2pDYIuWWAkSQ"/>
+      <visibility xmi:id="_lgy6Tm8bEe2pDYIuWWAkSQ" label="+"/>
+      <cardinality xmi:id="_lgy6T28bEe2pDYIuWWAkSQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_lgy6UG8bEe2pDYIuWWAkSQ">
+        <modelElement href="EnterTheDungeon.uml#_hZMLgm8bEe2pDYIuWWAkSQ"/>
+        <type xmi:id="_lgy6UW8bEe2pDYIuWWAkSQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_lgy6Um8bEe2pDYIuWWAkSQ" name="parler">
+      <modelElement href="EnterTheDungeon.uml#_hZMykG8bEe2pDYIuWWAkSQ"/>
+      <visibility xmi:id="_lgy6U28bEe2pDYIuWWAkSQ" label="+"/>
+      <cardinality xmi:id="_lgy6VG8bEe2pDYIuWWAkSQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_lgy6VW8bEe2pDYIuWWAkSQ" name="texte">
+        <modelElement href="EnterTheDungeon.uml#_hZMykW8bEe2pDYIuWWAkSQ"/>
+        <cardinality xmi:id="_lgy6Vm8bEe2pDYIuWWAkSQ" label="1" max="1" min="1"/>
+        <type xmi:id="_lgy6V28bEe2pDYIuWWAkSQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_lgy6WG8bEe2pDYIuWWAkSQ" name="prendreParole">
+      <modelElement href="EnterTheDungeon.uml#_hZNZoG8bEe2pDYIuWWAkSQ"/>
+      <visibility xmi:id="_lgy6WW8bEe2pDYIuWWAkSQ" label="-"/>
+      <cardinality xmi:id="_lgy6Wm8bEe2pDYIuWWAkSQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_lgy6W28bEe2pDYIuWWAkSQ">
+        <modelElement href="EnterTheDungeon.uml#_hZNZoW8bEe2pDYIuWWAkSQ"/>
+        <type xmi:id="_lgy6XG8bEe2pDYIuWWAkSQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_lgy6XW8bEe2pDYIuWWAkSQ" name="mourir">
+      <modelElement href="EnterTheDungeon.uml#_hZNZom8bEe2pDYIuWWAkSQ"/>
+      <visibility xmi:id="_lgy6Xm8bEe2pDYIuWWAkSQ" label="+"/>
+      <cardinality xmi:id="_lgy6X28bEe2pDYIuWWAkSQ" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_li9dQG8bEe2pDYIuWWAkSQ" containment="_lyDCIG8bEe2pDYIuWWAkSQ" name="Epee" package="_lyDpMG8bEe2pDYIuWWAkSQ" generalizations="_ligKQG8bEe2pDYIuWWAkSQ">
+    <modelElement href="EnterTheDungeon.uml#_hZqFkG8bEe2pDYIuWWAkSQ"/>
+    <visualProperties xmi:id="_li9dQW8bEe2pDYIuWWAkSQ" position="1087.0,734.0" size="444.0,59.0"/>
+    <visibility xmi:id="_li9dQm8bEe2pDYIuWWAkSQ" label="+"/>
+    <operations xmi:id="_li9dQ28bEe2pDYIuWWAkSQ" name="Epee">
+      <modelElement href="EnterTheDungeon.uml#_hZqsoG8bEe2pDYIuWWAkSQ"/>
+      <keywords xmi:id="_li9dRG8bEe2pDYIuWWAkSQ" keyword="create"/>
+      <visibility xmi:id="_li9dRW8bEe2pDYIuWWAkSQ" label="+"/>
+      <cardinality xmi:id="_li9dRm8bEe2pDYIuWWAkSQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_li9dR28bEe2pDYIuWWAkSQ">
+        <modelElement href="EnterTheDungeon.uml#_hZrTtW8bEe2pDYIuWWAkSQ"/>
+        <type xmi:id="_li9dSG8bEe2pDYIuWWAkSQ" name="Epee">
+          <modelElement href="EnterTheDungeon.uml#_hZqFkG8bEe2pDYIuWWAkSQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_li9dSW8bEe2pDYIuWWAkSQ" name="nom">
+        <modelElement href="EnterTheDungeon.uml#_hZqsoW8bEe2pDYIuWWAkSQ"/>
+        <cardinality xmi:id="_li9dSm8bEe2pDYIuWWAkSQ" label="1" max="1" min="1"/>
+        <type xmi:id="_li9dS28bEe2pDYIuWWAkSQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_li9dTG8bEe2pDYIuWWAkSQ" name="degats">
+        <modelElement href="EnterTheDungeon.uml#_hZrTsG8bEe2pDYIuWWAkSQ"/>
+        <cardinality xmi:id="_li9dTW8bEe2pDYIuWWAkSQ" label="1" max="1" min="1"/>
+        <type xmi:id="_li9dTm8bEe2pDYIuWWAkSQ" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_li9dT28bEe2pDYIuWWAkSQ" name="range">
+        <modelElement href="EnterTheDungeon.uml#_hZrTsW8bEe2pDYIuWWAkSQ"/>
+        <cardinality xmi:id="_li9dUG8bEe2pDYIuWWAkSQ" label="1" max="1" min="1"/>
+        <type xmi:id="_li9dUW8bEe2pDYIuWWAkSQ" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_li9dUm8bEe2pDYIuWWAkSQ" name="cooldown">
+        <modelElement href="EnterTheDungeon.uml#_hZrTsm8bEe2pDYIuWWAkSQ"/>
+        <cardinality xmi:id="_li9dU28bEe2pDYIuWWAkSQ" label="1" max="1" min="1"/>
+        <type xmi:id="_li9dVG8bEe2pDYIuWWAkSQ" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_ljVQsG8bEe2pDYIuWWAkSQ" containment="_luW08G8bEe2pDYIuWWAkSQ" name="nourriture" package="_lvYvsG8bEe2pDYIuWWAkSQ">
+    <modelElement href="EnterTheDungeon.uml#_hZOnwG8bEe2pDYIuWWAkSQ"/>
+    <visualProperties xmi:id="_ljVQsW8bEe2pDYIuWWAkSQ" position="1352.0,448.0" size="70.0,32.0"/>
+    <visibility xmi:id="_ljVQsm8bEe2pDYIuWWAkSQ" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_lkyCMG8bEe2pDYIuWWAkSQ" containment="_lywMwG8bEe2pDYIuWWAkSQ" name="Histoire" package="_lzXQwG8bEe2pDYIuWWAkSQ">
+    <modelElement href="EnterTheDungeon.uml#_hZnCQG8bEe2pDYIuWWAkSQ"/>
+    <visualProperties xmi:id="_lkyCMW8bEe2pDYIuWWAkSQ" position="18.0,1228.0" size="190.0,59.0"/>
+    <visibility xmi:id="_lkyCMm8bEe2pDYIuWWAkSQ" label="+"/>
+    <operations xmi:id="_lkyCM28bEe2pDYIuWWAkSQ" name="main" staticOperation="true">
+      <modelElement href="EnterTheDungeon.uml#_hZnCQW8bEe2pDYIuWWAkSQ"/>
+      <visibility xmi:id="_lkyCNG8bEe2pDYIuWWAkSQ" label="+"/>
+      <cardinality xmi:id="_lkyCNW8bEe2pDYIuWWAkSQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_lkyCNm8bEe2pDYIuWWAkSQ" name="args">
+        <modelElement href="EnterTheDungeon.uml#_hZnCQm8bEe2pDYIuWWAkSQ"/>
+        <cardinality xmi:id="_lkyCN28bEe2pDYIuWWAkSQ" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_lkyCOG8bEe2pDYIuWWAkSQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_llqL8G8bEe2pDYIuWWAkSQ" name="EnterTheDungeon">
+    <modelElement href="EnterTheDungeon.uml#_hGLv8G8bEe2pDYIuWWAkSQ"/>
+    <visualProperties xmi:id="_llqzAG8bEe2pDYIuWWAkSQ" position="266.0,1135.0" size="136.0,63.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_loZW4G8bEe2pDYIuWWAkSQ" containments="_ln5noG8bEe2pDYIuWWAkSQ _lpMBEG8bEe2pDYIuWWAkSQ _lrvl0G8bEe2pDYIuWWAkSQ" classes="_lgy6EG8bEe2pDYIuWWAkSQ" name="etreVivants">
+    <modelElement href="EnterTheDungeon.uml#_hYzJ8G8bEe2pDYIuWWAkSQ"/>
+    <visualProperties xmi:id="_loZW4W8bEe2pDYIuWWAkSQ" position="492.0,30.0" size="99.0,63.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_lq21AG8bEe2pDYIuWWAkSQ" containment="_lpMBEG8bEe2pDYIuWWAkSQ" containments="_lqYT4G8bEe2pDYIuWWAkSQ" classes="_lfR3IG8bEe2pDYIuWWAkSQ" name="heros">
+    <modelElement href="EnterTheDungeon.uml#_hY3bYG8bEe2pDYIuWWAkSQ"/>
+    <visualProperties xmi:id="_lq21AW8bEe2pDYIuWWAkSQ" position="1509.0,264.0" size="94.0,63.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_ltNlcG8bEe2pDYIuWWAkSQ" containment="_lrvl0G8bEe2pDYIuWWAkSQ" containments="_lsw5gG8bEe2pDYIuWWAkSQ" classes="_lfrfwG8bEe2pDYIuWWAkSQ" name="monstre">
+    <modelElement href="EnterTheDungeon.uml#_hY4pgG8bEe2pDYIuWWAkSQ"/>
+    <visualProperties xmi:id="_ltNlcW8bEe2pDYIuWWAkSQ" position="495.0,264.0" size="94.0,63.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_lvYvsG8bEe2pDYIuWWAkSQ" containments="_luW08G8bEe2pDYIuWWAkSQ _lvHC4G8bEe2pDYIuWWAkSQ _lwJksG8bEe2pDYIuWWAkSQ" classes="_ljVQsG8bEe2pDYIuWWAkSQ _lj1nAG8bEe2pDYIuWWAkSQ" name="objets">
+    <modelElement href="EnterTheDungeon.uml#_hY2NQG8bEe2pDYIuWWAkSQ"/>
+    <visualProperties xmi:id="_lvYvsW8bEe2pDYIuWWAkSQ" position="1340.0,316.0" size="94.0,63.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_lyDpMG8bEe2pDYIuWWAkSQ" containment="_lwJksG8bEe2pDYIuWWAkSQ" containments="_lxN7sG8bEe2pDYIuWWAkSQ _lyDCIG8bEe2pDYIuWWAkSQ" classes="_liJk8G8bEe2pDYIuWWAkSQ _li9dQG8bEe2pDYIuWWAkSQ" name="armes">
+    <modelElement href="EnterTheDungeon.uml#_hY53oG8bEe2pDYIuWWAkSQ"/>
+    <visualProperties xmi:id="_lyDpMW8bEe2pDYIuWWAkSQ" position="1236.0,433.0" size="94.0,63.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_lzXQwG8bEe2pDYIuWWAkSQ" containments="_lywMwG8bEe2pDYIuWWAkSQ" classes="_lkyCMG8bEe2pDYIuWWAkSQ" name="histoire">
+    <modelElement href="EnterTheDungeon.uml#_hY6esG8bEe2pDYIuWWAkSQ"/>
+    <visualProperties xmi:id="_lzXQwW8bEe2pDYIuWWAkSQ" position="66.0,1135.0" size="94.0,63.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_liJk8G8bEe2pDYIuWWAkSQ" comments="_lhh54G8bEe2pDYIuWWAkSQ" targetConnectionVisual="_liIW0G8bEe2pDYIuWWAkSQ" containment="_lxN7sG8bEe2pDYIuWWAkSQ" name="Arme" package="_lyDpMG8bEe2pDYIuWWAkSQ" associationsIn="_lfQpAG8bEe2pDYIuWWAkSQ" subclassedBy="_ligKQG8bEe2pDYIuWWAkSQ">
+    <modelElement href="EnterTheDungeon.uml#_hZoQYW8bEe2pDYIuWWAkSQ"/>
+    <visualProperties xmi:id="_liJk8W8bEe2pDYIuWWAkSQ" position="732.0,549.0" size="452.0,142.0"/>
+    <visibility xmi:id="_liJk8m8bEe2pDYIuWWAkSQ" label="+"/>
+    <attributes xmi:id="_liJk828bEe2pDYIuWWAkSQ" name="nom">
+      <modelElement href="EnterTheDungeon.uml#_ha-7QW8bEe2pDYIuWWAkSQ"/>
+      <visualProperties xmi:id="_p0BCwG8bEe2pDYIuWWAkSQ"/>
+      <visibility xmi:id="_liJk9G8bEe2pDYIuWWAkSQ" label="+"/>
+      <cardinality xmi:id="_liJk9W8bEe2pDYIuWWAkSQ" label="1" max="1" min="1"/>
+      <type xmi:id="_liJk9m8bEe2pDYIuWWAkSQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_liJk928bEe2pDYIuWWAkSQ" name="degats">
+      <modelElement href="EnterTheDungeon.uml#_ha_iUG8bEe2pDYIuWWAkSQ"/>
+      <visualProperties xmi:id="_p0BCwW8bEe2pDYIuWWAkSQ"/>
+      <visibility xmi:id="_liJk-G8bEe2pDYIuWWAkSQ" label="+"/>
+      <cardinality xmi:id="_liJk-W8bEe2pDYIuWWAkSQ" label="1" max="1" min="1"/>
+      <type xmi:id="_liJk-m8bEe2pDYIuWWAkSQ" name="float">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_liJk-28bEe2pDYIuWWAkSQ" name="range">
+      <modelElement href="EnterTheDungeon.uml#_ha_iUW8bEe2pDYIuWWAkSQ"/>
+      <visualProperties xmi:id="_p0BCwm8bEe2pDYIuWWAkSQ"/>
+      <visibility xmi:id="_liJk_G8bEe2pDYIuWWAkSQ" label="+"/>
+      <cardinality xmi:id="_liJk_W8bEe2pDYIuWWAkSQ" label="1" max="1" min="1"/>
+      <type xmi:id="_liJk_m8bEe2pDYIuWWAkSQ" name="float">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_liJk_28bEe2pDYIuWWAkSQ" name="cooldown">
+      <modelElement href="EnterTheDungeon.uml#_ha_iUm8bEe2pDYIuWWAkSQ"/>
+      <visualProperties xmi:id="_p0Bp0G8bEe2pDYIuWWAkSQ"/>
+      <visibility xmi:id="_liJlAG8bEe2pDYIuWWAkSQ" label="+"/>
+      <cardinality xmi:id="_liJlAW8bEe2pDYIuWWAkSQ" label="1" max="1" min="1"/>
+      <type xmi:id="_liJlAm8bEe2pDYIuWWAkSQ" name="float">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_liJlA28bEe2pDYIuWWAkSQ" name="Arme">
+      <modelElement href="EnterTheDungeon.uml#_hZpegG8bEe2pDYIuWWAkSQ"/>
+      <keywords xmi:id="_liJlBG8bEe2pDYIuWWAkSQ" keyword="create"/>
+      <visibility xmi:id="_liJlBW8bEe2pDYIuWWAkSQ" label="+"/>
+      <cardinality xmi:id="_liJlBm8bEe2pDYIuWWAkSQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_liJlB28bEe2pDYIuWWAkSQ">
+        <modelElement href="EnterTheDungeon.uml#_hZpeh28bEe2pDYIuWWAkSQ"/>
+        <type xmi:id="_liJlCG8bEe2pDYIuWWAkSQ" name="Arme">
+          <modelElement href="EnterTheDungeon.uml#_hZoQYW8bEe2pDYIuWWAkSQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_liJlCW8bEe2pDYIuWWAkSQ" name="nom">
+        <modelElement href="EnterTheDungeon.uml#_hZpegW8bEe2pDYIuWWAkSQ"/>
+        <cardinality xmi:id="_liJlCm8bEe2pDYIuWWAkSQ" label="1" max="1" min="1"/>
+        <type xmi:id="_liJlC28bEe2pDYIuWWAkSQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_liJlDG8bEe2pDYIuWWAkSQ" name="degats">
+        <modelElement href="EnterTheDungeon.uml#_hZpegm8bEe2pDYIuWWAkSQ"/>
+        <cardinality xmi:id="_liJlDW8bEe2pDYIuWWAkSQ" label="1" max="1" min="1"/>
+        <type xmi:id="_liJlDm8bEe2pDYIuWWAkSQ" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_liJlD28bEe2pDYIuWWAkSQ" name="range">
+        <modelElement href="EnterTheDungeon.uml#_hZpeg28bEe2pDYIuWWAkSQ"/>
+        <cardinality xmi:id="_liJlEG8bEe2pDYIuWWAkSQ" label="1" max="1" min="1"/>
+        <type xmi:id="_liJlEW8bEe2pDYIuWWAkSQ" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_liJlEm8bEe2pDYIuWWAkSQ" name="cooldown">
+        <modelElement href="EnterTheDungeon.uml#_hZpehG8bEe2pDYIuWWAkSQ"/>
+        <cardinality xmi:id="_liJlE28bEe2pDYIuWWAkSQ" label="1" max="1" min="1"/>
+        <type xmi:id="_liJlFG8bEe2pDYIuWWAkSQ" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_lj1nAG8bEe2pDYIuWWAkSQ" containment="_lvHC4G8bEe2pDYIuWWAkSQ" name="Xp" package="_lvYvsG8bEe2pDYIuWWAkSQ">
+    <modelElement href="EnterTheDungeon.uml#_hZoQYG8bEe2pDYIuWWAkSQ"/>
+    <visualProperties xmi:id="_lj1nAW8bEe2pDYIuWWAkSQ" position="1451.0,435.0" size="27.0,32.0"/>
+    <visibility xmi:id="_lj1nAm8bEe2pDYIuWWAkSQ" label="+"/>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

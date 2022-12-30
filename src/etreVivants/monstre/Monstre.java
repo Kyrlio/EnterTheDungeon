@@ -15,16 +15,24 @@ public class Monstre extends EtreVivant {
 	public String toString() {
 		return "[nom = " + nom 
 				+ "\nvie = " + vie 
-				+ "\ndegats = "+ degats
+				+ "\ndegats = " + degats
 				+ "\nvitesse = " + vitesse
-				+"]\n";
+				+ "]\n";
 	}
 	
 	//----------COMBAT----------
 	public void attaquer(Heros heros) {
 		//TODO faire des dégats a l'ennemi
-		parler("Je frappe : " + heros.getNom() + " avec : " + degats + " degats" );
-		heros.recevoirDegats(degats);
+		if (this.estEnvie()) {
+			parler("Je frappe : " + heros.getNom() + " avec : " + degats + " degats" );
+			if (heros.esquiverAttaque() == false) {			
+				heros.recevoirDegats(degats);
+			} else {
+				heros.parler("Je ne reçois pas de dégats !");
+			}
+		} else {
+			parler("Je suis mort, je ne peux plus attaquer !");
+		}
 	}
 	
 	public void recevoirDegats(float degats) {

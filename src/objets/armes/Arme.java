@@ -1,10 +1,5 @@
 package objets.armes;
-/*
- * Les armes attaquent en continue mais ont des spécificités différentes
- * ex : l'épée attaque tout droit dans la direction du Héros
- * Le pistolet tire un projectile en direction du monstre le plus proche
- * Le champ de force est un cercle qui entoure le Héros et si les ennemis rentrent dans ce cerle ça leur fait des dégats tout les x sec
- */
+
 public class Arme {
 	private String nom;
 	private float degats;
@@ -30,6 +25,23 @@ public class Arme {
 	}
 	public float getCooldown() {
 		return cooldown;
+	}
+	
+	//----------SETTERS----------
+	public void setDegats(float degats) {
+		this.degats = degats;
+	}
+
+	public void setNom(String nom) {
+		this.nom = nom;
+	}
+
+	public void setRange(float range) {
+		this.range = range;
+	}
+
+	public void setCooldown(float cooldown) {
+		this.cooldown = cooldown;
 	}
 	
 }

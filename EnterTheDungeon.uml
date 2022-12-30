@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_hGLv8G8bEe2pDYIuWWAkSQ" name="EnterTheDungeon">
+    <eAnnotations xmi:id="_hMArIG8bEe2pDYIuWWAkSQ" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_hMArIW8bEe2pDYIuWWAkSQ" source="codegen">
+        <details xmi:id="_hMArIm8bEe2pDYIuWWAkSQ" key="codegenDirectory" value="/EnterTheDungeon/src"/>
+        <details xmi:id="_hd0M0G8bEe2pDYIuWWAkSQ" key="AssociatedSourceCode" value="/EnterTheDungeon/src/etreVivants/EtreVivant.java;1714586566/1;/EnterTheDungeon/src/objets/nourriture.java;4269308102/1;/EnterTheDungeon/src/etreVivants/monstre/Monstre.java;1696670095/1;/EnterTheDungeon/src/histoire/Histoire.java;4013738981/1;/EnterTheDungeon/src/objets/Xp.java;377619168/1;/EnterTheDungeon/src/objets/armes/Arme.java;2287972993/1;/EnterTheDungeon/src/objets/armes/Epee.java;4078238079/1;/EnterTheDungeon/src/etreVivants/heros/Heros.java;1830791990/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_hYqAAG8bEe2pDYIuWWAkSQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_hYqAAW8bEe2pDYIuWWAkSQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_hYqAAm8bEe2pDYIuWWAkSQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_hYqnEG8bEe2pDYIuWWAkSQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_hYqnEW8bEe2pDYIuWWAkSQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_hYqnEm8bEe2pDYIuWWAkSQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_hYqnE28bEe2pDYIuWWAkSQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_hYqnFG8bEe2pDYIuWWAkSQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_hYrOIG8bEe2pDYIuWWAkSQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_hYzJ8G8bEe2pDYIuWWAkSQ" name="etreVivants">
+      <packagedElement xmi:type="uml:Package" xmi:id="_hY3bYG8bEe2pDYIuWWAkSQ" name="heros">
+        <packagedElement xmi:type="uml:Class" xmi:id="_hZr6wG8bEe2pDYIuWWAkSQ" name="Heros">
+          <generalization xmi:id="_ha2YYW8bEe2pDYIuWWAkSQ" general="_hZH6EG8bEe2pDYIuWWAkSQ"/>
+          <ownedAttribute xmi:id="_hbAJYG8bEe2pDYIuWWAkSQ" name="resistance" isReadOnly="true">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_hbAwcG8bEe2pDYIuWWAkSQ" name="xp" isReadOnly="true">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_hbAwcW8bEe2pDYIuWWAkSQ" name="lvl" isReadOnly="true">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_hbBXgG8bEe2pDYIuWWAkSQ" name="lvlup" isReadOnly="true">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_hbBXgW8bEe2pDYIuWWAkSQ" name="nbArmes" visibility="private">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_hbBXgm8bEe2pDYIuWWAkSQ" value="0"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_hbB-kG8bEe2pDYIuWWAkSQ" name="inventaireArmes" visibility="private" type="_hZoQYW8bEe2pDYIuWWAkSQ" association="_hbOy4G8bEe2pDYIuWWAkSQ">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_hbB-kW8bEe2pDYIuWWAkSQ" value="*"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_hbCloW8bEe2pDYIuWWAkSQ" value="new Arme[5]"/>
+          </ownedAttribute>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_hbKhdm8bEe2pDYIuWWAkSQ" name="Heros" specification="_hZyBYG8bEe2pDYIuWWAkSQ">
+            <ownedParameter xmi:id="_hbKhd28bEe2pDYIuWWAkSQ" name="vie">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_hbKheG8bEe2pDYIuWWAkSQ" name="nom">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_hbKheW8bEe2pDYIuWWAkSQ" name="degats">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_hbKhem8bEe2pDYIuWWAkSQ" name="vitesse">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_hbKhe28bEe2pDYIuWWAkSQ" type="_hZr6wG8bEe2pDYIuWWAkSQ" direction="return"/>
+            <language>java</language>
+            <body>super(vie, nom, degats, vitesse);&#xD;
+		this.resistance = resistance;&#xD;
+		this.xp = xp;&#xD;
+		this.lvl = lvl;&#xD;
+		this.lvlup = lvlup;&#xD;
+		this.nbArmes = nbArmes;&#xD;
+		this.inventaireArmes = inventaireArmes;&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_hbKhfG8bEe2pDYIuWWAkSQ" name="toString" specification="_hZ0doG8bEe2pDYIuWWAkSQ">
+            <ownedParameter xmi:id="_hbKhfW8bEe2pDYIuWWAkSQ" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>return &quot;[nom = &quot; + nom &#xD;
+				+ &quot;\nvie = &quot; + vie &#xD;
+				+ &quot;\nresistance = &quot; + resistance &#xD;
+				+ &quot;\ndegats = &quot;+ degats&#xD;
+				+ &quot;\nvitesse = &quot; + vitesse&#xD;
+				+ &quot;\nxp = &quot; + xp&#xD;
+				+ &quot;\nlvlup = &quot; + lvlup&#xD;
+				+ &quot;\narmes = &quot; + inventaireArmes&#xD;
+				+&quot;]\n&quot;;&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_hbLIgG8bEe2pDYIuWWAkSQ" name="getInventaireArme" specification="_hZ3g8m8bEe2pDYIuWWAkSQ">
+            <ownedParameter xmi:id="_hbLIgW8bEe2pDYIuWWAkSQ" type="_hZoQYW8bEe2pDYIuWWAkSQ" direction="return">
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_hbLIgm8bEe2pDYIuWWAkSQ" value="*"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>System.out.println(&quot;\nInventaire :&quot;);&#xD;
+		for (int i = 0 ; inventaireArmes[i] != null &amp;&amp; i &lt; inventaireArmes.length ; i++) {&#xD;
+			System.out.print(&quot;[&quot; + inventaireArmes[i].getNom() + &quot;,&quot;);&#xD;
+		}&#xD;
+		System.out.println(&quot;]\n&quot;);&#xD;
+		return inventaireArmes;&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_hbLIg28bEe2pDYIuWWAkSQ" name="attaquer" specification="_ha1xUW8bEe2pDYIuWWAkSQ">
+            <ownedParameter xmi:id="_hbLIhG8bEe2pDYIuWWAkSQ" name="monstre" type="_hZOnwW8bEe2pDYIuWWAkSQ"/>
+            <language>java</language>
+            <body>//TODO faire des dégats a l'ennemi avec une arme&#xD;
+		parler(&quot;Je frappe : &quot; + monstre.getNom() + &quot; avec : &quot; + degats + &quot; degats&quot; );&#xD;
+		monstre.recevoirDegats(degats);&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_hbLIhW8bEe2pDYIuWWAkSQ" name="recevoirDegats" specification="_hZ5WIW8bEe2pDYIuWWAkSQ">
+            <ownedParameter xmi:id="_hbLIhm8bEe2pDYIuWWAkSQ" name="degats">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>this.vie -= degats;&#xD;
+		parler(&quot;J'ai reçu : &quot; + degats);&#xD;
+		parler(&quot;Il me reste &quot; + vie + &quot; pv&quot;);&#xD;
+		&#xD;
+		if (estEnvie() == false) {&#xD;
+			//Fin de la partie&#xD;
+			mourir();&#xD;
+		}&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_hbLIh28bEe2pDYIuWWAkSQ" name="ramasserObjet" specification="_ha5bsW8bEe2pDYIuWWAkSQ">
+            <ownedParameter xmi:id="_hbLIiG8bEe2pDYIuWWAkSQ" name="objet" type="_ha40om8bEe2pDYIuWWAkSQ"/>
+            <language>java</language>
+            <body>/*TODO&#xD;
+		 * Si l'objet est de l'xp&#xD;
+		 * 	ajoute de l'xp au Héros&#xD;
+		 * Si l'objet est de la nourriture&#xD;
+		 * 	ajoute de la vie si le Héros en a besoin&#xD;
+		 * Si l'objet est une arme&#xD;
+		 * 	Si le Héros à déjà l'arme&#xD;
+		 * 		augmente les dégats de l'arme&#xD;
+		 * 	sinon : ajoute l'arme au tableau d'armes&#xD;
+		 * Si l'objet est une armure&#xD;
+		 * 	augmente la résistance de l'armure et donc du Héros&#xD;
+		 * &#xD;
+		 */&#xD;
+		if (objet.getClass() == Arme.class) { //Permet de savoir si l'objet en parametre appartient a la classe Arme&#xD;
+			inventaireArmes[nbArmes] = (Arme) objet;&#xD;
+			nbArmes++;&#xD;
+			this.degats = (float) ((Arme) objet).getDegats(); //Ajoute  les dégats de l'épée aux dégats du Héros&#xD;
+			&#xD;
+		}&#xD;
+		&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_hZyBYG8bEe2pDYIuWWAkSQ" name="Heros" method="_hbKhdm8bEe2pDYIuWWAkSQ">
+            <eAnnotations xmi:id="_hZyoc28bEe2pDYIuWWAkSQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_hZyodG8bEe2pDYIuWWAkSQ" key="create"/>
+            </eAnnotations>
+            <ownedParameter xmi:id="_hZyBYW8bEe2pDYIuWWAkSQ" name="vie">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_hZyocG8bEe2pDYIuWWAkSQ" name="nom">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_hZyocW8bEe2pDYIuWWAkSQ" name="degats">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_hZyocm8bEe2pDYIuWWAkSQ" name="vitesse">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_hZyodW8bEe2pDYIuWWAkSQ" type="_hZr6wG8bEe2pDYIuWWAkSQ" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_hZ0doG8bEe2pDYIuWWAkSQ" name="toString" method="_hbKhfG8bEe2pDYIuWWAkSQ">
+            <ownedParameter xmi:id="_hZ0doW8bEe2pDYIuWWAkSQ" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_hZ3g8m8bEe2pDYIuWWAkSQ" name="getInventaireArme" method="_hbLIgG8bEe2pDYIuWWAkSQ">
+            <ownedParameter xmi:id="_hZ4vEG8bEe2pDYIuWWAkSQ" type="_hZoQYW8bEe2pDYIuWWAkSQ" direction="return">
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_hZ4vEW8bEe2pDYIuWWAkSQ" value="*"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_hZ5WIW8bEe2pDYIuWWAkSQ" name="recevoirDegats" method="_hbLIhW8bEe2pDYIuWWAkSQ">
+            <ownedParameter xmi:id="_hZ5WIm8bEe2pDYIuWWAkSQ" name="degats">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_ha1xUW8bEe2pDYIuWWAkSQ" name="attaquer" method="_hbLIg28bEe2pDYIuWWAkSQ">
+            <ownedParameter xmi:id="_ha2YYG8bEe2pDYIuWWAkSQ" name="monstre" type="_hZOnwW8bEe2pDYIuWWAkSQ"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_ha5bsW8bEe2pDYIuWWAkSQ" name="ramasserObjet" method="_hbLIh28bEe2pDYIuWWAkSQ">
+            <ownedParameter xmi:id="_ha5bsm8bEe2pDYIuWWAkSQ" name="objet" type="_ha40om8bEe2pDYIuWWAkSQ"/>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_hbOy4G8bEe2pDYIuWWAkSQ" name="" memberEnd="_hbOy4W8bEe2pDYIuWWAkSQ _hbB-kG8bEe2pDYIuWWAkSQ">
+          <ownedEnd xmi:id="_hbOy4W8bEe2pDYIuWWAkSQ" name="" type="_hZr6wG8bEe2pDYIuWWAkSQ" association="_hbOy4G8bEe2pDYIuWWAkSQ"/>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_hY4pgG8bEe2pDYIuWWAkSQ" name="monstre">
+        <packagedElement xmi:type="uml:Class" xmi:id="_hZOnwW8bEe2pDYIuWWAkSQ" name="Monstre">
+          <generalization xmi:id="_ha1KQG8bEe2pDYIuWWAkSQ" general="_hZH6EG8bEe2pDYIuWWAkSQ"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_hbJTUG8bEe2pDYIuWWAkSQ" name="Monstre" specification="_hZPO0G8bEe2pDYIuWWAkSQ">
+            <ownedParameter xmi:id="_hbJTUW8bEe2pDYIuWWAkSQ" name="vie">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_hbJTUm8bEe2pDYIuWWAkSQ" name="nom">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_hbJTU28bEe2pDYIuWWAkSQ" name="degats">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_hbJTVG8bEe2pDYIuWWAkSQ" name="vitesse">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_hbJTVW8bEe2pDYIuWWAkSQ" type="_hZOnwW8bEe2pDYIuWWAkSQ" direction="return"/>
+            <language>java</language>
+            <body>super(vie, nom, degats, vitesse);&#xD;
+		&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_hbJTVm8bEe2pDYIuWWAkSQ" name="toString" specification="_hZj-828bEe2pDYIuWWAkSQ">
+            <ownedParameter xmi:id="_hbJTV28bEe2pDYIuWWAkSQ" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>return &quot;[nom = &quot; + nom &#xD;
+				+ &quot;\nvie = &quot; + vie &#xD;
+				+ &quot;\ndegats = &quot;+ degats&#xD;
+				+ &quot;\nvitesse = &quot; + vitesse&#xD;
+				+&quot;]\n&quot;;&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_hbJTWG8bEe2pDYIuWWAkSQ" name="attaquer" specification="_ha0jMG8bEe2pDYIuWWAkSQ">
+            <ownedParameter xmi:id="_hbJTWW8bEe2pDYIuWWAkSQ" name="heros" type="_hZr6wG8bEe2pDYIuWWAkSQ"/>
+            <language>java</language>
+            <body>//TODO faire des dégats a l'ennemi&#xD;
+		parler(&quot;Je frappe : &quot; + heros.getNom() + &quot; avec : &quot; + degats + &quot; degats&quot; );&#xD;
+		heros.recevoirDegats(degats);&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_hbJ6YG8bEe2pDYIuWWAkSQ" name="recevoirDegats" specification="_hZlNEG8bEe2pDYIuWWAkSQ">
+            <ownedParameter xmi:id="_hbJ6YW8bEe2pDYIuWWAkSQ" name="degats">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>this.vie -= degats;&#xD;
+		parler(&quot;J'ai reçu : &quot; + degats + &quot; dégats&quot;);&#xD;
+		parler(&quot;Il me reste &quot; + vie + &quot; pv&quot;);&#xD;
+		&#xD;
+		if (estEnvie() == false) {&#xD;
+			//Fin de la partie&#xD;
+			mourir();&#xD;
+		}&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_hZPO0G8bEe2pDYIuWWAkSQ" name="Monstre" method="_hbJTUG8bEe2pDYIuWWAkSQ">
+            <eAnnotations xmi:id="_hZj-8G8bEe2pDYIuWWAkSQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_hZj-8W8bEe2pDYIuWWAkSQ" key="create"/>
+            </eAnnotations>
+            <ownedParameter xmi:id="_hZPO0W8bEe2pDYIuWWAkSQ" name="vie">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_hZP14G8bEe2pDYIuWWAkSQ" name="nom">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_hZjX4G8bEe2pDYIuWWAkSQ" name="degats">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_hZjX4W8bEe2pDYIuWWAkSQ" name="vitesse">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_hZj-8m8bEe2pDYIuWWAkSQ" type="_hZOnwW8bEe2pDYIuWWAkSQ" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_hZj-828bEe2pDYIuWWAkSQ" name="toString" method="_hbJTVm8bEe2pDYIuWWAkSQ">
+            <ownedParameter xmi:id="_hZj-9G8bEe2pDYIuWWAkSQ" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_hZlNEG8bEe2pDYIuWWAkSQ" name="recevoirDegats" method="_hbJ6YG8bEe2pDYIuWWAkSQ">
+            <ownedParameter xmi:id="_hZlNEW8bEe2pDYIuWWAkSQ" name="degats">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_ha0jMG8bEe2pDYIuWWAkSQ" name="attaquer" method="_hbJTWG8bEe2pDYIuWWAkSQ">
+            <ownedParameter xmi:id="_ha0jMW8bEe2pDYIuWWAkSQ" name="heros" type="_hZr6wG8bEe2pDYIuWWAkSQ"/>
+          </ownedOperation>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_hZH6EG8bEe2pDYIuWWAkSQ" name="EtreVivant">
+        <ownedAttribute xmi:id="_ha9GEG8bEe2pDYIuWWAkSQ" name="vie" visibility="protected">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_ha9tIG8bEe2pDYIuWWAkSQ" name="nom" visibility="protected">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_ha9tIm8bEe2pDYIuWWAkSQ" name="degats" visibility="protected">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_ha-UMW8bEe2pDYIuWWAkSQ" name="vitesse" visibility="protected">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_hbDzwG8bEe2pDYIuWWAkSQ" name="EtreVivant" specification="_hZJvQG8bEe2pDYIuWWAkSQ">
+          <ownedParameter xmi:id="_hbDzwW8bEe2pDYIuWWAkSQ" name="vie">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_hbDzwm8bEe2pDYIuWWAkSQ" name="nom">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_hbDzw28bEe2pDYIuWWAkSQ" name="degats">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_hbDzxG8bEe2pDYIuWWAkSQ" name="vitesse">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_hbDzxW8bEe2pDYIuWWAkSQ" type="_hZH6EG8bEe2pDYIuWWAkSQ" direction="return"/>
+          <language>java</language>
+          <body>this.vie = vie;&#xD;
+		this.nom = nom;&#xD;
+		this.degats = degats;&#xD;
+		this.vitesse = vitesse;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_hbGQAG8bEe2pDYIuWWAkSQ" name="getVie" specification="_hZK9YG8bEe2pDYIuWWAkSQ">
+          <ownedParameter xmi:id="_hbGQAW8bEe2pDYIuWWAkSQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return vie;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_hbGQAm8bEe2pDYIuWWAkSQ" name="getNom" specification="_hZLkcG8bEe2pDYIuWWAkSQ">
+          <ownedParameter xmi:id="_hbGQA28bEe2pDYIuWWAkSQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return nom;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_hbGQBG8bEe2pDYIuWWAkSQ" name="getDegats" specification="_hZLkcm8bEe2pDYIuWWAkSQ">
+          <ownedParameter xmi:id="_hbGQBW8bEe2pDYIuWWAkSQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return degats;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_hbGQBm8bEe2pDYIuWWAkSQ" name="getVitesse" specification="_hZLkdG8bEe2pDYIuWWAkSQ">
+          <ownedParameter xmi:id="_hbGQB28bEe2pDYIuWWAkSQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return vitesse;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_hbG3EG8bEe2pDYIuWWAkSQ" name="estEnvie" specification="_hZMLgW8bEe2pDYIuWWAkSQ">
+          <ownedParameter xmi:id="_hbG3EW8bEe2pDYIuWWAkSQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return vie > 0;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_hbG3Em8bEe2pDYIuWWAkSQ" name="parler" specification="_hZMykG8bEe2pDYIuWWAkSQ">
+          <ownedParameter xmi:id="_hbG3E28bEe2pDYIuWWAkSQ" name="texte">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>System.out.println(prendreParole() + '&quot;' + texte + '&quot;');&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_hbG3FG8bEe2pDYIuWWAkSQ" name="prendreParole" specification="_hZNZoG8bEe2pDYIuWWAkSQ">
+          <ownedParameter xmi:id="_hbG3FW8bEe2pDYIuWWAkSQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return &quot;[&quot; + nom + &quot;] - &quot;;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_hbHeIG8bEe2pDYIuWWAkSQ" name="mourir" specification="_hZNZom8bEe2pDYIuWWAkSQ">
+          <language>java</language>
+          <body>System.out.println(&quot;Le &quot; + this.getNom() + &quot; est mort&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_hZJvQG8bEe2pDYIuWWAkSQ" name="EtreVivant" visibility="protected" method="_hbDzwG8bEe2pDYIuWWAkSQ">
+          <eAnnotations xmi:id="_hZKWVG8bEe2pDYIuWWAkSQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_hZKWVW8bEe2pDYIuWWAkSQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_hZKWUG8bEe2pDYIuWWAkSQ" name="vie">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_hZKWUW8bEe2pDYIuWWAkSQ" name="nom">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_hZKWUm8bEe2pDYIuWWAkSQ" name="degats">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_hZKWU28bEe2pDYIuWWAkSQ" name="vitesse">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_hZKWVm8bEe2pDYIuWWAkSQ" type="_hZH6EG8bEe2pDYIuWWAkSQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_hZK9YG8bEe2pDYIuWWAkSQ" name="getVie" method="_hbGQAG8bEe2pDYIuWWAkSQ">
+          <ownedParameter xmi:id="_hZK9YW8bEe2pDYIuWWAkSQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_hZLkcG8bEe2pDYIuWWAkSQ" name="getNom" method="_hbGQAm8bEe2pDYIuWWAkSQ">
+          <ownedParameter xmi:id="_hZLkcW8bEe2pDYIuWWAkSQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_hZLkcm8bEe2pDYIuWWAkSQ" name="getDegats" method="_hbGQBG8bEe2pDYIuWWAkSQ">
+          <ownedParameter xmi:id="_hZLkc28bEe2pDYIuWWAkSQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_hZLkdG8bEe2pDYIuWWAkSQ" name="getVitesse" method="_hbGQBm8bEe2pDYIuWWAkSQ">
+          <ownedParameter xmi:id="_hZMLgG8bEe2pDYIuWWAkSQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_hZMLgW8bEe2pDYIuWWAkSQ" name="estEnvie" method="_hbG3EG8bEe2pDYIuWWAkSQ">
+          <ownedParameter xmi:id="_hZMLgm8bEe2pDYIuWWAkSQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_hZMykG8bEe2pDYIuWWAkSQ" name="parler" method="_hbG3Em8bEe2pDYIuWWAkSQ">
+          <ownedParameter xmi:id="_hZMykW8bEe2pDYIuWWAkSQ" name="texte">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_hZNZoG8bEe2pDYIuWWAkSQ" name="prendreParole" visibility="private" method="_hbG3FG8bEe2pDYIuWWAkSQ">
+          <ownedParameter xmi:id="_hZNZoW8bEe2pDYIuWWAkSQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_hZNZom8bEe2pDYIuWWAkSQ" name="mourir" method="_hbHeIG8bEe2pDYIuWWAkSQ"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_hY2NQG8bEe2pDYIuWWAkSQ" name="objets">
+      <packagedElement xmi:type="uml:Package" xmi:id="_hY53oG8bEe2pDYIuWWAkSQ" name="armes">
+        <packagedElement xmi:type="uml:Class" xmi:id="_hZoQYW8bEe2pDYIuWWAkSQ" name="Arme">
+          <ownedComment xmi:id="_hbLvkG8bEe2pDYIuWWAkSQ">
+            <body>Les armes attaquent en continue mais ont des spécificités différentes&#xD;
+ex : l'épée attaque tout droit dans la direction du Héros&#xD;
+Le pistolet tire un projectile en direction du monstre le plus proche&#xD;
+Le champ de force est un cercle qui entoure le Héros et si les ennemis rentrent dans ce cerle ça leur fait des dégats tout les x sec</body>
+          </ownedComment>
+          <ownedAttribute xmi:id="_ha-7QW8bEe2pDYIuWWAkSQ" name="nom" isReadOnly="true">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_ha_iUG8bEe2pDYIuWWAkSQ" name="degats" isReadOnly="true">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_ha_iUW8bEe2pDYIuWWAkSQ" name="range" isReadOnly="true">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_ha_iUm8bEe2pDYIuWWAkSQ" name="cooldown" isReadOnly="true">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+          </ownedAttribute>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_hbJ6ZW8bEe2pDYIuWWAkSQ" name="Arme" specification="_hZpegG8bEe2pDYIuWWAkSQ">
+            <ownedParameter xmi:id="_hbJ6Zm8bEe2pDYIuWWAkSQ" name="nom">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_hbJ6Z28bEe2pDYIuWWAkSQ" name="degats">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_hbJ6aG8bEe2pDYIuWWAkSQ" name="range">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_hbJ6aW8bEe2pDYIuWWAkSQ" name="cooldown">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_hbJ6am8bEe2pDYIuWWAkSQ" type="_hZoQYW8bEe2pDYIuWWAkSQ" direction="return"/>
+            <language>java</language>
+            <body>this.nom = nom;&#xD;
+		this.degats = degats;&#xD;
+		this.range = range;&#xD;
+		this.cooldown = cooldown;&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_hZpegG8bEe2pDYIuWWAkSQ" name="Arme" method="_hbJ6ZW8bEe2pDYIuWWAkSQ">
+            <eAnnotations xmi:id="_hZpehW8bEe2pDYIuWWAkSQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_hZpehm8bEe2pDYIuWWAkSQ" key="create"/>
+            </eAnnotations>
+            <ownedParameter xmi:id="_hZpegW8bEe2pDYIuWWAkSQ" name="nom">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_hZpegm8bEe2pDYIuWWAkSQ" name="degats">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_hZpeg28bEe2pDYIuWWAkSQ" name="range">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_hZpehG8bEe2pDYIuWWAkSQ" name="cooldown">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_hZpeh28bEe2pDYIuWWAkSQ" type="_hZoQYW8bEe2pDYIuWWAkSQ" direction="return"/>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_hZqFkG8bEe2pDYIuWWAkSQ" name="Epee">
+          <generalization xmi:id="_ha1xUG8bEe2pDYIuWWAkSQ" general="_hZoQYW8bEe2pDYIuWWAkSQ"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_hbKhcG8bEe2pDYIuWWAkSQ" name="Epee" specification="_hZqsoG8bEe2pDYIuWWAkSQ">
+            <ownedParameter xmi:id="_hbKhcW8bEe2pDYIuWWAkSQ" name="nom">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_hbKhcm8bEe2pDYIuWWAkSQ" name="degats">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_hbKhc28bEe2pDYIuWWAkSQ" name="range">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_hbKhdG8bEe2pDYIuWWAkSQ" name="cooldown">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_hbKhdW8bEe2pDYIuWWAkSQ" type="_hZqFkG8bEe2pDYIuWWAkSQ" direction="return"/>
+            <language>java</language>
+            <body>super(nom, 2, range, cooldown);&#xD;
+		// TODO Auto-generated constructor stub&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_hZqsoG8bEe2pDYIuWWAkSQ" name="Epee" method="_hbKhcG8bEe2pDYIuWWAkSQ">
+            <eAnnotations xmi:id="_hZrTs28bEe2pDYIuWWAkSQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_hZrTtG8bEe2pDYIuWWAkSQ" key="create"/>
+            </eAnnotations>
+            <ownedParameter xmi:id="_hZqsoW8bEe2pDYIuWWAkSQ" name="nom">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_hZrTsG8bEe2pDYIuWWAkSQ" name="degats">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_hZrTsW8bEe2pDYIuWWAkSQ" name="range">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_hZrTsm8bEe2pDYIuWWAkSQ" name="cooldown">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_hZrTtW8bEe2pDYIuWWAkSQ" type="_hZqFkG8bEe2pDYIuWWAkSQ" direction="return"/>
+          </ownedOperation>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_hZOnwG8bEe2pDYIuWWAkSQ" name="nourriture"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_hZoQYG8bEe2pDYIuWWAkSQ" name="Xp"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_hY6esG8bEe2pDYIuWWAkSQ" name="histoire">
+      <packagedElement xmi:type="uml:Class" xmi:id="_hZnCQG8bEe2pDYIuWWAkSQ" name="Histoire">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_hbJ6Ym8bEe2pDYIuWWAkSQ" name="main" specification="_hZnCQW8bEe2pDYIuWWAkSQ">
+          <ownedParameter xmi:id="_hbJ6Y28bEe2pDYIuWWAkSQ" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_hbJ6ZG8bEe2pDYIuWWAkSQ" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>Arme epee = new Arme(&quot;Epee&quot;, 2, 1, 1);&#xD;
+		Heros heros = new Heros(10, &quot;Héros&quot;, 0, 7);&#xD;
+		heros.parler(&quot;Je suis le Héros, je vais tuer tous les monstres&quot;);&#xD;
+		System.out.println(heros.toString());&#xD;
+		&#xD;
+		Monstre monstre1 = new Monstre(2, &quot;Monstre1&quot;, 1, 4);&#xD;
+		monstre1.parler(&quot;Je suis un monstre et je fonce sur le Héros&quot;);&#xD;
+		System.out.println(monstre1.toString());&#xD;
+		System.out.println(monstre1.estEnvie());&#xD;
+		&#xD;
+		heros.attaquer(monstre1);&#xD;
+		heros.parler(&quot;Je m'arme de mon épée&quot;);&#xD;
+		heros.ramasserObjet(epee);&#xD;
+		System.out.println(heros.getInventaireArme());&#xD;
+		&#xD;
+		monstre1.attaquer(heros);&#xD;
+		heros.attaquer(monstre1);&#xD;
+&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_hZnCQW8bEe2pDYIuWWAkSQ" name="main" isStatic="true" method="_hbJ6Ym8bEe2pDYIuWWAkSQ">
+          <ownedParameter xmi:id="_hZnCQm8bEe2pDYIuWWAkSQ" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_hZnpUG8bEe2pDYIuWWAkSQ" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_ha40oG8bEe2pDYIuWWAkSQ" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_ha40oW8bEe2pDYIuWWAkSQ" name="lang">
+        <packagedElement xmi:type="uml:Class" xmi:id="_ha40om8bEe2pDYIuWWAkSQ" name="Object"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_hMBSMG8bEe2pDYIuWWAkSQ">
+      <eAnnotations xmi:id="_hMBSMW8bEe2pDYIuWWAkSQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_hMBSMm8bEe2pDYIuWWAkSQ" base_Package="_hGLv8G8bEe2pDYIuWWAkSQ">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_hZkmAG8bEe2pDYIuWWAkSQ" base_Element="_hZj-828bEe2pDYIuWWAkSQ"/>
+  <UMLLabProfile:Annotations xmi:id="_hZkmAW8bEe2pDYIuWWAkSQ" base_Element="_hZj-828bEe2pDYIuWWAkSQ">
+    <annotations xmi:id="_hZkmAm8bEe2pDYIuWWAkSQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_hZ1EsG8bEe2pDYIuWWAkSQ" base_Element="_hZ0doG8bEe2pDYIuWWAkSQ"/>
+  <UMLLabProfile:Annotations xmi:id="_hZ3g8G8bEe2pDYIuWWAkSQ" base_Element="_hZ0doG8bEe2pDYIuWWAkSQ">
+    <annotations xmi:id="_hZ3g8W8bEe2pDYIuWWAkSQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Array xmi:id="_hZ5WIG8bEe2pDYIuWWAkSQ" base_Element="_hZ3g8m8bEe2pDYIuWWAkSQ"/>
+  <UMLLabProfile:Reference xmi:id="_ha5bsG8bEe2pDYIuWWAkSQ" base_Element="_ha40om8bEe2pDYIuWWAkSQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ha9GEW8bEe2pDYIuWWAkSQ" base_Element="_ha9GEG8bEe2pDYIuWWAkSQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ha9tIW8bEe2pDYIuWWAkSQ" base_Element="_ha9tIG8bEe2pDYIuWWAkSQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ha-UMG8bEe2pDYIuWWAkSQ" base_Element="_ha9tIm8bEe2pDYIuWWAkSQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ha-7QG8bEe2pDYIuWWAkSQ" base_Element="_ha-UMW8bEe2pDYIuWWAkSQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_hbBXg28bEe2pDYIuWWAkSQ" base_Element="_hbBXgW8bEe2pDYIuWWAkSQ"/>
+  <UMLLabProfile:Array xmi:id="_hbCloG8bEe2pDYIuWWAkSQ" base_Element="_hbB-kG8bEe2pDYIuWWAkSQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_hbClom8bEe2pDYIuWWAkSQ" base_Element="_hbB-kG8bEe2pDYIuWWAkSQ"/>
+  <UMLLabProfile:Reference xmi:id="_hbQBAG8bEe2pDYIuWWAkSQ" base_Element="_hbOy4G8bEe2pDYIuWWAkSQ"/>
+</xmi:XMI>
