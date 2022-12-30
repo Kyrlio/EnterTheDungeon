@@ -125,10 +125,6 @@ public class Heros extends EtreVivant {
 
 	}
 	
-	
-
-
-
 
 	//----------COMBAT----------
 	public void attaquer(Monstre monstre) {
