@@ -102,6 +102,9 @@ public class Main {
 			while (monstre.estEnvie() && heros.estEnvie()) {
 				heros.attaquer(monstre);
 				monstre.attaquer(heros);
+				if (monstre.estEnvie() == false) {
+					heros.gagnerXP();
+				}
 			}
 		}
 		if (choix == 2) {
